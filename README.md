@@ -36,7 +36,7 @@ songs = [
 
  
 
-```ruby
+ruby 
 def say_hello(name)
   "Hi #{name}!"
 end
