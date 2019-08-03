@@ -20,7 +20,7 @@ To quickly review user input via the command line, let's make a small program.
 Inside the `jukebox.rb` file (within the `lib` subfolder), we see an array of
 song titles:
 
-```ruby
+ 
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -32,10 +32,9 @@ songs = [
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-```
+ 
 
-Leave this for now. Below it, we're going to build a program that asks for a
-user's name, then greets the user. Add the following to `jukebox.rb`:
+ 
 
 ```ruby
 def say_hello(name)
