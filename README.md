@@ -36,7 +36,6 @@ songs = [
 
  
 
-ruby 
 def say_hello(name)
   "Hi #{name}!"
 end
@@ -45,7 +44,7 @@ puts "Enter your name:"
 users_name = gets.strip
 
 puts say_hello(users_name)
-```
+
 
 When we run `ruby lib/jukebox.rb`, it's going to print out `Enter your name:`.
 Then, the terminal prompt will return to a new line, and you'll type in your
